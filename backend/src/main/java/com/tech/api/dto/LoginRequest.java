@@ -1,4 +1,6 @@
 package com.tech.api.dto;
 
-public class LoginRequest {
-}
+public record LoginRequest(
+        String username,
+        String password
+) {}

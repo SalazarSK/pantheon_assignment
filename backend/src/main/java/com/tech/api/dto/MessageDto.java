@@ -1,4 +1,13 @@
 package com.tech.api.dto;
 
-public class MessageDto {
-}
+import java.time.ZonedDateTime;
+
+public record MessageDto(
+        String id,
+        String fromUserId,
+        String toUserId,
+        String content,
+        ZonedDateTime sentAt
+) {}
+
+

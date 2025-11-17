@@ -1,4 +1,7 @@
 package com.tech.api.dto;
 
-public class SendMessageRequest {
-}
+public record SendMessageRequest(
+        String fromUserId,
+        String toUserId,
+        String content
+) {}
