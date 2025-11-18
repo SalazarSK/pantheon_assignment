@@ -21,6 +21,16 @@ export const logout = async (userId) => {
   });
 };
 
+export const register = async ({ username, password, firstName, lastName }) => {
+  const res = await client.post("/user/register", {
+    username,
+    password,
+    firstName,
+    lastName,
+  });
+  return res.data;
+};
+
 // --- USERS ---
 export const getUsers = async () => {
   const res = await client.get("/user/users");
