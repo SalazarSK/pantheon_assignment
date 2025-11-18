@@ -1,4 +1,4 @@
-package com.tech.api.service;
+package com.tech.api.controller;
 
 import com.tech.api.dto.MessageDto;
 import com.tech.api.dto.SendMessageRequest;
@@ -6,6 +6,8 @@ import com.tech.api.entity.Message;
 import com.tech.api.entity.User;
 import com.tech.api.mapper.ChatMapper;
 import com.tech.api.repository.MessageRepository;
+import com.tech.api.service.MessageService;
+import com.tech.api.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.*;
