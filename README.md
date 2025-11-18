@@ -80,3 +80,10 @@ The frontend starts at:
 **[http://localhost:5173](http://localhost:5173)**
 
 ---
+
+## **3. Testing**
+
+Users:
+**Username:** alice **Password:** password1
+**Username:** bob **Password:** password2
+**Username:** charlie **Password:** password3
